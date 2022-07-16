@@ -1,0 +1,40 @@
+!<!DOCTYPE html>
+ <head>
+ <Link href="CSS/styleformularioRE.css" rel="stylesheet" type="text/css"/>
+ <meta charset="utf-8">
+ <link rel="shortcut icon" href="img/barberia.png">
+  <title>Inicio</title>
+ </head>
+ <body>
+  <div id="contenedorgeneral">
+    <div class="contform">
+      <br>
+      <img id="imagencoml"src="img/TijuasBarberLogo.png">
+
+      <form class="frmAltaActores" action="registeruser.php" method="post">
+        <h1>Formulario de registro</h1>
+        <p>Introduzca los datos que se le indiquen:</p>
+        <br>
+        <input type="text" name="Nombre" placeholder="Nombre" required/><br><br>
+        <input type="text" name="apellidoP" placeholder="Apellido Paterno" required/><br><br>
+        <input type="text" name="apellidoM" placeholder="Apellido Materno" required/><br><br>
+        <input type="email" name="correo" placeholder="Correo" required /><br><br>
+        <input type="tel" name="telefono" placeholder="Telefono" required min="10"/><br>
+
+        <input type="submit" id="Ingresar" name="Guardar" value="Guardar" class="boton"/><br><br>
+        <input type="reset" id="Ingresar" name="Cancelar" value="Cancelar" class="boton" /><br><br>
+        <a href="index.html"><input type="button" id="Ingresar" name="naveg" value="Regresar" class="boton" href="index.html"></a>
+      </form>
+    </div>
+  </div>
+  <div id="pie">
+      <nav class="infopie">
+        <ul>
+          <li>Numero de contacto: 6647420578</li>
+          <li><img src="img/instagram.png">  Instagram: TijuasBarber</li>
+          <li><img src="img/facebook.png">  Facebook: TijuasBarber</li>
+        </ul>
+      </nav>
+  </div>
+ </body>
+</html>

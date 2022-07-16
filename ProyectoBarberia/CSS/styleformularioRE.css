@@ -1,0 +1,166 @@
+*{
+padding:0px;
+margin:0px;
+}
+
+body {
+background: #2f2e33;
+}
+h1 {
+  font-family: cursive;
+  font-size: 19px;
+}
+
+p{
+  text-align: center;
+  font-family: cursive;
+}
+
+ul, ol {
+list-style:none;
+}
+/*****************************Contenedores************************************/
+#imagencoml{
+  width: 250px;
+  height: 250px;
+}
+#contenedorgeneral{
+  margin: 0px 17px;
+  width: 900px;
+  height: 850px;
+
+  Border:1px solid #000000;
+  Margin:0 auto;
+  -webkit-transition: all 800ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+     -moz-transition: all 800ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+       -o-transition: all 800ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+          transition: all 800ms cubic-bezier(0.445, 0.050, 0.550, 0.950); /* easeInOutSine */
+
+  -webkit-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+     -moz-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+       -o-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+          transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+  background: #DCD9E0;
+  behavior: url(/pie/PIE.htc);
+
+  align-items: center;
+  text-align: center;
+}
+
+.contform{
+  Width:97%;
+  Border:1px solid #000000;
+  Margin:10px;
+  Float:left;
+  align-items: center;
+  background: rgba(171,180,192,0.86);
+}
+/******************************************************************************/
+:root{
+  --naranja:#434343;
+  --azul-menu: #5EAAA8;
+  --fondo: #F8F1F1;
+  --footer: #A3D2CA;
+  --cafe: #2f2e33;
+  --cafeclaro: #2f2e33;
+  --ancho: 1024px;
+}
+
+#frmAltaActores{
+  padding: 10px 60px 10px 60px;
+  max-width: 250px;
+  margin: 0 auto;
+  background-color: var(--footer);
+}
+
+form input{
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 10px;
+  -webkit-box-sizing:border-box;
+  border: none;
+  font-family: Arial;
+  color: #525c66;
+}
+
+.etiqueta{
+  color:#212F3D;
+  font-family: Calibri;
+  margin: 0 auto;
+}
+
+#Guardar{
+
+  background-color: var(--cafe);
+  color: white;
+  letter-spacing: 3px;
+
+}
+#Ingresar{
+
+  background-color: var(--cafe);
+  color: white;
+  letter-spacing: 3px;
+}
+
+#registrate{
+
+  background-color: var(--cafeclaro);
+  color: white;
+  letter-spacing: 2px;
+}
+
+#registrate:hover{
+  background-color: var(--naranja);
+}
+#Guardar:hover{
+  background-color: var(--naranja);
+}
+#Ingresar:hover{
+  background-color: var(--naranja);
+}
+/*************************PIE DE PAGINA****************************************/
+#pie{
+  background-color:  black;
+  width: 900px;
+  height: 100px;
+  Border:1px solid #7B68EE;
+  Margin:0 auto;
+  -webkit-transition: all 800ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+     -moz-transition: all 800ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+       -o-transition: all 800ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+          transition: all 800ms cubic-bezier(0.445, 0.050, 0.550, 0.950); /* easeInOutSine */
+
+  -webkit-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+     -moz-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+       -o-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+          transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+  behavior: url(/pie/PIE.htc);
+
+  align-items: center;
+  text-align: center;
+}
+
+.infopie nav{
+  align-self: center;
+  align-items: center;
+  width: 800px;
+  height: 90px;
+  border: 1px solid #E6E6FA;
+}
+
+.infopie ul li{
+  float: left;
+  padding: 10px 100px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.infopie ul li img{
+  margin: 0px 0px;
+  width: 20px;
+  height: 20px;
+  position:sticky;
+}

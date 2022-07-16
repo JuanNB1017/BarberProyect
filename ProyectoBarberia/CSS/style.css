@@ -1,0 +1,313 @@
+*{
+padding:0px;
+margin:0px;
+}
+body {
+background: #2f2e33;
+}
+p{
+  text-align: center;
+  font-family:cursive;
+}
+/*************************** Contenedores**************************************/
+#principal {
+Width:900px;
+Border:1px solid #000000;
+Margin:0 auto;
+background: #DCD9E0;
+align-items: center;
+justify-content: center;
+}
+/******************************************************************************/
+.present{
+  Width:97%;
+  height: 110px;
+  Border:1px solid #000000;
+  margin: 0  auto;
+  background:#b1b1b1;
+}
+.present img{
+  width: 100px;
+  height: 100px;
+  padding: 2px 15px;
+}
+#present1{
+  float: left;
+  position: relative;
+  width: auto;
+  height: 110px;
+  padding: 2px 15px;
+}
+#present2{
+  text-align: right;
+  position: relative;
+  width: auto;
+  height: 100px;
+  padding: 2px 15px;
+}
+#present2 li{
+  float: right;
+  padding: 20px 10px;
+
+}
+
+#present2 a{
+
+  color: black;
+  text-decoration: none;
+  margin: 0;
+  display: block;
+  padding: 20px 10px;
+  border: 1px solid: #000000;
+  font-size: 18px;
+  font-family: cursive;
+}
+#present2 a:hover{
+  background-color: #cecece;
+}
+.present{
+
+  z-index: 1000;
+  top: 0;
+}
+/******************************************************************************/
+.cabecera {
+Height:43px;
+Border:1px solid #000000;
+Margin:10px;
+background:#919636;
+
+}
+
+#menu  {
+Height:65px;
+Border:1px solid #000000;
+Margin:10px;
+background:#44316C;
+text-align:center;
+}
+
+#menu li{
+  font-family: Copperplate Gothic Light;
+}
+
+#columnaizq{
+Width:97%;
+Border:1px solid #000000;
+Margin:10px;
+background:#d5d6d2;
+}
+
+.limpiar{
+clear:both;
+}
+/***************************Menu de paginas************************************/
+ul, ol {
+list-style:none;
+}
+
+#submenu  li a{
+background-color: #1E274D ;
+color:#fff;
+text-decoration:none;
+padding:20px 60px;
+display:block;
+
+-webkit-box-shadow: #666 3px 3px 6px;
+-moz-box-shadow: #666 3px 3px 6px;
+box-shadow: #666 3px 3px 6px;
+
+}
+#submenu a{
+  font-family:Calibri;
+  font-size: 19px;
+}
+#submenu>li {
+float:left;
+padding:0px 10px;
+}
+#submenu li a:hover {
+background-color:#393F59;
+}
+#submenu li ul {
+display:none;
+position:absolute;
+min-width:120px;
+}
+#submenu li:hover>  ul {
+display:block;
+}
+
+
+/*****************************Logotipo de pagina*******************************/
+#submenu3  li{
+text-decoration:none;
+float:left;
+background-color:white;
+}
+#submenu3 img {
+  width: 65px;
+  height: 62px;
+  padding: 0px 15px;
+}
+
+/*********************************OTROS****************************************/
+#mapa {
+  align-self: center;
+  Border:1px solid #000000;
+  Margin:10px;
+  align-items: center;
+  background:#d5d6d2 ;
+}
+.titulos{
+  text-align: center;
+  font-family: monospace;
+  font-size: 18px;
+  text-color: #d5d6d2;
+}
+
+ul{
+  list-style: none;
+}
+#estilol{
+text-family:arial black;
+text-align:center;
+text-color:black;
+}
+/***************************Contenedores ubicacion*****************************/
+#bannerubic{
+  background-image:url(https://media.istockphoto.com/vectors/hand-drawn-barber-shop-background-with-razor-scissors-shaving-brush-vector-id1142250832?k=20&m=1142250832&s=170667a&w=0&h=3SSAZmiSDbuK5Kctcky_zPxer2GrfmeWqhFe01mwI3A=);
+  width: 97%;
+  height: auto;
+  Margin:0 auto;
+}
+#bannerubic h1{
+  font-style: oblique;
+  font-size: 30px;
+  text-shadow: #666 3px 3px 2px,
+               1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
+  color: #C30000;
+  font-weight:bold;
+}
+#bannerubic p{
+  font-style: italic;
+  font-size: 18px;
+  text-shadow: #666 3px 3px 2px;
+  color: #8BF2FF;
+  font-weight:bold;
+  text-shadow: #666 4px 4px 3px,
+               2px  0px 0px black,
+               0px  2px 0px black,
+              -2px  0px 0px black,
+               0px -2px 0px black;
+
+}
+
+/**********************Contenedores de Servicios*******************************/
+
+.bannerderv{
+  Margin:0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(https://i.pinimg.com/474x/8a/3a/36/8a3a36633e84025010075a09eca5a844.jpg);
+
+  font-family: Helvetica;
+}
+
+.princserv{
+  text-align: center;
+  background-color: rgba(171,180,192,0.86);
+}
+
+.princserv h1{
+  font-size: 28px;
+  text-shadow: #666 2px 2px 1px,
+               0px -2px 0px black;
+
+}
+
+.cont1{
+  width: 250px;
+  height: 200px;
+  Border:1px solid #7B68EE;
+  margin: 10px 10px;
+  Background-color: #E6E6FA;
+  color: black;
+  display:inline-grid;
+  text-align: center;
+}
+
+.cont1 h3{
+  text-align:left;
+  font-family: monospace;
+}
+
+.cont1 h2{
+ color: #004F56;
+ font-family:Helvetica;
+ text-shadow: #009FAD 3px 3px 2px,
+              1px  0px 0px black,
+              0px  1px 0px black,
+             -1px  0px 0px black,
+              0px -1px 0px black;
+}
+.cont1 p{
+font-size: 18px;
+text-shadow: #666 2px 2px 1px,
+             0px  0px 0px black,
+             0px -1px 0px black;
+}
+
+.cont1:hover{
+  background-color:#D2D2FA;
+}
+
+/*************************PIE DE PAGINA****************************************/
+#pie{
+  background-color:  black;
+  width: 900px;
+  height: 100px;
+  Border:1px solid #7B68EE;
+  Margin:0 auto;
+  -webkit-transition: all 800ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+     -moz-transition: all 800ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+       -o-transition: all 800ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+          transition: all 800ms cubic-bezier(0.445, 0.050, 0.550, 0.950); /* easeInOutSine */
+
+  -webkit-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+     -moz-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+       -o-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+          transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+  behavior: url(/pie/PIE.htc);
+
+  align-items: center;
+  text-align: center;
+}
+
+.infopie nav{
+  align-self: center;
+  align-items: center;
+  width: 800px;
+  height: 90px;
+  border: 1px solid #E6E6FA;
+}
+
+.infopie ul li{
+  float: left;
+  padding: 10px 100px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.infopie ul li img{
+  margin: 0px 0px;
+  width: 20px;
+  height: 20px;
+  position:sticky;
+}
